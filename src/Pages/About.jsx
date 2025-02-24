@@ -1,11 +1,12 @@
 import React from "react";
 import "./About.css";
+import about1 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/about1.jpeg";
 
 const About = () => {
   return (
     <div className="about-container">
       {/* Hero Section */}
-      <div className="hero-section" style={{ backgroundImage: `url("src/assets/about1.jpeg")` }}>
+      <div className="hero-section" style={{ backgroundImage: `url(${about1})` }}>
         <div className="hero-overlay">
           <h1 className="hero-text">At Royal Heritage, We Don’t Just Build Structures. We Build Dreams!</h1>
         </div>
