@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./Project.css";
 import proj2 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj2.jpg";
+import proj3 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj3.jpg";
+import proj4 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj4.jpg";
+import proj5 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj5.jpg";
+
 
 const images = [
   "/src/assets/pro1.jpg",
@@ -113,17 +117,17 @@ const RoyalPalms = () => {
     
       <div className="facility-icons">
         <div className="facility-item">
-          <img src="/src/assets/proj3.jpg" alt="error loading.." />
+          <img src={proj3} alt="error loading.." />
           <br></br>
           <p>Gym & Fitness Center</p>
         </div>
         <div className="facility-item">
-          <img src="/src/assets/proj4.jpg" alt="error loading.." />
+          <img src={proj4} alt="error loading.." />
           <br></br>
           <p>Reticulated Gas</p>
         </div>
         <div className="facility-item">
-          <img src="/src/assets/proj5.jpg" alt="error loading.." />
+          <img src={proj5} alt="error loading.." />
           <br></br>
           <p>Kids Play Area</p>
         </div>
