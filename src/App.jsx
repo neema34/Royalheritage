@@ -1,10 +1,12 @@
-import Footer from "./Component/footer/Footer"
-import Navbar from "./Component/navbar/Navbar"
-import About from "./Pages/About"
-import Contact from "./Pages/Contact"
-import Home from "./Pages/Home"
 import { HashRouter as Router, Routes, Route } from "react-router-dom"; 
+import Navbar from "./Component/navbar/Navbar"
+import Home from "./Pages/Home"
+import About from "./Pages/About"
 import Project from "./Pages/Project"
+import Contact from "./Pages/Contact"
+import Footer from "./Component/footer/Footer"
+
+
 
 function App() {
 
