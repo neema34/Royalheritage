@@ -107,6 +107,9 @@
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 150px;
+  width: 100%;
+  max-width: 1200px; /* Optional: Prevent shrinking */
+  margin: 20px auto 150px auto; 
 }
 
 .gallery-item {
@@ -117,6 +120,8 @@
   overflow: hidden;
   border-color: #61c1d1;
   border-style: solid;
+  min-width: 250px; /* Prevents excessive shrinking */
+  flex-grow: 1;
   
 }
 
