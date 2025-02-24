@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import './Header.css';
 
 const images = [
-  process.env.PUBLIC_URL + "/assets/header.jpg",
-  process.env.PUBLIC_URL + "/assets/pro1.jpg",
+   "/Royalheritage/assets/header.jpg",
+  "/Royalheritage/assets/pro1.jpg"
 ];
 
 
