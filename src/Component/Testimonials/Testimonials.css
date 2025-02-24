@@ -1,0 +1,189 @@
+@media (min-width:1024px){
+  .testimonials-container {
+    position: relative;
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    
+  }
+  
+  .testimonial-cards-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem 0;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    gap: 2rem;
+    transition: transform 0.6s ease-in-out;
+    will-change: transform;
+  }
+  
+  .testimonial-card {
+    flex: 0 0 500px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(97, 193, 205, 0.1);
+    border: 3px solid #61c1cd;
+    padding: 6rem;
+    text-align: center;
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out, border 0.5s ease-in-out;
+    margin-top: 10px;
+    
+    
+  
+  }
+  
+  .testimonial-card.highlighted {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border: 3px solid #61c1cd;
+  }
+  
+  .testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+  }
+  
+  .testimonial-text {
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    min-height: 80px;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .carousel-controls button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  }
+  
+  .carousel-controls button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+  }
+  
+  .carousel-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .dots-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+    transform: scale(1.2);
+  }
+  .test-content h2{
+    font-size: 64px;
+    font-weight: 500;
+    color: #61c1cd;
+  }
+  .test-content p{
+    font-size: 20px;
+  }
+  footer  p{
+    font-size: 40px;
+    color: #61c1cd;
+    font-weight: 600;
+    margin-top: 5vw;
+  }
+  }
+  /* Responsive Styles (768px and below) */
+  @media (max-width: 768px) {
+    .testimonials-container {
+      background-color: #ffffff;
+          padding: 1rem;
+      }
+  
+    .testimonial-cards-wrapper {
+          /* No need for overflow or horizontal scrolling */
+          padding: 1rem 0; 
+      }
+  
+    .testimonial-cards {
+          flex-direction: column; /* Stack cards vertically */
+          gap: 1rem; /* Adjust gap as needed */
+          align-items: center; /* Center the cards */
+      }
+  
+    .testimonial-card {
+          flex: 0 0 auto; /* Take up available width */
+          width: 90%; /* Occupy most of the screen width */
+          padding: 3rem 2rem; /* Reduced padding */
+          margin-top: 0;
+          border: 3px solid #61c1cd; /* Keep the border */
+          border-radius: 35px;
+          margin-bottom: 25px;
+          margin-left: 22px;
+      }
+  
+    .carousel-controls {
+          display: none; /* Hide next/prev buttons */
+      }
+  
+    .dots-container {
+          margin-top: 0.5rem;
+      }
+  
+      .test-content h2 {
+        font-size: 36px;
+        color: #61c1cd; /* Add this line */
+        text-align: center;
+    }
+  
+    .test-content p {
+          font-size: 1rem;
+          text-align: center;
+      }
+  
+      footer p {
+          font-size: 1.5rem;
+          margin-top: 3rem;
+          color:#61c1cd;
+          text-align: center;
+      }
+  }

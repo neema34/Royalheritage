@@ -1,0 +1,337 @@
+@media (min-width:1024px){
+
+  .footer {
+    background: url("src/assets/tower.bg.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+    
+  }
+  
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    height:300px;
+  }
+  
+  .footer-logo img {
+    width: 100%;
+    max-width: 250px;
+    opacity: 1;
+    margin-left: 280px;
+  }
+  
+  .detail h1 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-right: 430px;
+  }
+  .detail p{
+    margin-bottom: -10px;
+  }
+  #id3{
+    margin-top: -6px;
+  }
+  #id4{
+    margin-top: -15px;
+  }
+  .detail ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  
+  .footer li {
+    list-style: none;
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    line-height: 1.5;
+  }
+  
+  .footer li  i {
+    min-width: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: -5px;
+  }
+  
+  .footer-end {
+    border: 2px solid white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: 70px;
+      
+    
+    }
+    
+    .footer-end p { 
+      /* border-top: 2px solid white; */
+    font-size: 16px;
+    
+    color:white;
+    padding: 1.5rem;
+  }
+  
+  #para{
+    margin-left: 150px;
+  }
+  
+  .social-icons {
+     border-right:2px solid whites ;
+    /* border-top:2px solid white ; */ 
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
+    /* padding: 1rem;s */
+    margin-right: 350px;
+  }
+  
+  .social-icons i {
+    border-right: 2px solid white;
+    padding: 20px;
+  height:20px;
+  
+  }
+  .fa-whatsapp{
+     font-size: 35px;
+     margin-bottom: 30px;
+  }
+  .fa-instagram{
+    font-size:35px;
+    margin-bottom: 30px;
+  }
+  .fa-facebook{
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .social-icons.fa-whatsapps {
+    border-left: 2px solid white;
+  }
+  #watsapp{
+    border-left: 2px solid white;
+  }
+  
+  .social-icons a {
+    border-right: 2px solid white;
+    color: white;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    opacity: 0.8;
+  }
+  #id1{
+    margin-bottom: 47px;
+  }
+  #id2{
+    margin-bottom: 20px;
+  }
+  
+   
+    /* Responsive Adjustments */
+    @media (min-width: 768px) {
+      .footer-main {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 3rem 1rem;
+      }
+    
+      .detail h1 {
+        text-align: left;
+      }
+    
+      .footer-end {
+        
+        flex-direction: row;
+        justify-content: space-between;
+       
+      }
+    
+      .footer-end p {
+        margin: 0;
+        padding-right: 1.5rem;
+      }
+    
+      .social-icons {
+        padding: 0;
+      }
+    
+      .social-icons i:last-child {
+        border-right: none;
+      }
+    }
+    
+    @media (max-width: 767px) {
+      .footer-end p {
+        border-right: none;
+      }
+    
+      .social-icons i {
+        border-right: none;
+        padding: 8px;
+      }
+    
+      .footer li {
+        font-size: 1rem;
+      }
+    }
+  }
+  @media(max-width:768px){
+    .footer {
+      background: url("src/assets/tower.bg.jpg");
+      color: white;
+      background-size: cover;
+      background-position: center;
+      filter: brightness(70%);
+    }
+    
+    .footer-main {
+      display: flex;
+      flex-direction: column; /* Stack elements vertically on mobile */
+      gap: 20px;
+      max-width: 90%; /* Occupy most of the screen width */
+      margin: 0 auto;
+      padding: 1rem; /* Consistent padding */
+      height: 450px; /* Adjust height automatically */
+    }
+    
+    .footer-logo img {
+      width: 100%;
+      max-width: 200px; /* Smaller logo on mobile */
+      margin: 0 auto; /* Center the logo */
+      display: block; /* Prevent image from affecting layout */
+    }
+    
+    .detail h1 {
+      font-size: 20px; /* Smaller heading */
+      text-align: center;
+      margin-bottom: 1rem;
+      white-space: nowrap;
+      margin-left: 10px;
+      margin-top: -20px;
+    }
+    
+    .detail ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 0; /* Remove default ul padding */
+      margin-left: 50px;
+      margin-top: -10px;
+    }
+  
+    
+    .footer li {
+      list-style: none;
+      font-size: 1rem;
+      display: flex;
+      align-items: flex-start; /* Align items to the start of the container */
+      gap: 10px;
+      line-height: 1.4; /* Improved line height for readability */
+    }
+    
+    .footer li i {
+      min-width: 20px;
+      font-size: 16px;
+      color: #ffffff;
+    }
+    
+    .detail p {
+      margin: 0; /* Reset default p margins */
+    }
+    #id4{
+      margin-top: -4px;
+    }
+    
+    .footer-end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 1rem; /* Consistent padding */
+      border-top: 1px solid white; /* Only border top on mobile */
+      border-bottom: none;  /* Remove other borders */
+      height: 60px;
+    }
+    
+    .footer-end p {
+      font-size: 14px;
+      color: white;
+      margin: 0; /* Reset default p margins */
+  
+    }
+    
+    #para {
+      margin: 0;
+      white-space: nowrap;
+      font-size: 9.5px;
+      margin-top: -5px;
+  
+    }
+    
+    .social-icons {
+      display: flex;
+      justify-content: center; /* Center social icons */
+      gap: 15px; /* Adjust spacing */
+      margin-top: 2px; /* Add some top margin */
+    
+      margin-left: -5px;
+    }
+    
+    #watsapp{
+      border-left: none;
+    }
+    .social-icons i {
+      font-size: 22px; /* Smaller icons */
+      padding: 0;  /* remove padding */
+      border-color: transparent; /* Remove borders on mobile */
+      margin: 0;
+    }
+    
+    .social-icons a {
+      color: white;
+      font-size: 25px;
+      transition: opacity 0.3s ease;
+      border-right: none;
+    }
+    
+    .social-icons a:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  
+  @media (max-width:340px){
+    .detail ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 0; /* Remove default ul padding */
+      margin-left: 5px;
+      margin-top: -10px;
+    }
+    #para{
+      font-size: 10px;
+      white-space: wrap;
+    }
+    .social-icons{
+      margin-top: 3px;
+    }
+    .footer-end{
+      height: 70px;
+    }
+  }

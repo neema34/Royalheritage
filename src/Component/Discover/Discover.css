@@ -1,0 +1,206 @@
+.discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#ffffff;
+    padding: 3.5vw;
+    gap: 10vw;
+}
+
+.discover-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.discover-head h1 {
+    color: #61C1CD;
+    font-size: 72px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.discover-head p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 80%;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 115px;
+    padding-top: 20px;
+    margin-bottom: -75px;
+}
+.experience span{
+    color: #333333;
+}
+.discover-c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+}
+
+.advantage h1 {
+    color: #61C1CD;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.advantage p {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 500;
+}
+
+.advantage button {
+    padding: 1vw 2vw;
+    border-radius: 16px;
+    background-color: #61C1CD;
+    border: none;
+    font-size: 1.4vw;
+    cursor: pointer;
+    align-self: flex-start;
+}
+#knowmore{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+.experience {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2vw;
+    justify-content: space-between;
+}
+
+.ex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+}
+
+.experience span {
+    color: #61C1CD;
+    font-size: 40px;
+    font-weight: 500;
+   
+}
+
+.experience p {
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: 500;
+   
+}
+
+hr {
+    width: 100%;
+    border: 0.5px solid #ccc;
+}
+
+/* Media Query for Responsiveness (800px and below) */
+@media (max-width: 800px) {
+    .discover {
+        padding: 20px; /* Use fixed padding */
+        gap: 20px; /* Use fixed gap */
+    }
+
+    .discover-head h1 {
+        font-size: 2.5rem; /* Smaller heading */
+    }
+
+    .discover-head p {
+        font-size: 1rem; /* Smaller paragraph */
+        max-width: 100%; /* Full width */
+        white-space: normal; /* Allow wrapping */
+        margin: 0; /* Remove specific margins */
+    }
+
+    .discover-c {
+        flex-direction: column; /* Stack sections */
+        margin-top: 2rem;
+        gap: 20px; /* Consistent gap */
+    }
+
+    .advantage {
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .advantage h1 {
+        font-size: 28px;
+    }
+
+    .advantage p {
+        font-size: 16px;
+    }
+    .advantage br{
+        display:none;
+    }
+    .advantage button {
+        font-size: 16px;
+        padding: 12px 24px;
+        align-self: center;
+    }
+
+    .experience {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .ex {
+        flex-direction: column; /* Stack span and p */
+        gap: 10px;
+        justify-content: center; /* Center content */
+        align-items: center;
+    }
+
+    .experience p {
+        font-size: 16px;
+        white-space: normal; /* Allow wrapping */
+        text-align: center;
+    }
+
+    .experience span {
+        font-size: 32px;
+    }
+}
+
+/* Media Query for even smaller screens (480px and below) */
+@media (max-width: 480px) {
+    .discover-head h1 {
+        font-size: 2rem;
+    }
+
+    .advantage h1 {
+        font-size: 24px;
+    }
+    #knowmore {
+        font-size: 20px; /* Reduced from 24px */
+        padding: 8px 16px; /* Reduced padding (optional) */
+    }
+
+    .advantage button {
+        font-size: 14px; /*reduce button font size*/
+        padding: 8px 16px; /*reduce button padding*/
+    }
+}

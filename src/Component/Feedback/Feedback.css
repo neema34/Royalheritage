@@ -1,0 +1,187 @@
+.quote-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Stack vertically by default */
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #61C1CD;
+}
+
+
+.quote-form {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem; /* Add top margin for spacing */
+}
+
+.quote-container::after {
+  content: "";
+  background: url('"/Users/USER/Downloads/Royalheritage (3)/Royalheritage (2)/Royalheritage/src/assets/bac.png') no-repeat center/contain;
+  position: absolute;
+  bottom: -100px; /* Adjusted bottom position */
+  right: -50px; /* Adjusted right position */
+  width: 500px; /* Adjusted width */
+  height: 400px; /* Adjusted height */
+  opacity: 0.5;
+}
+
+.quote-header {
+  text-align: center;
+  color: white;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.quote-header h1 {
+  font-size: 2rem; /* Smaller heading */
+  margin-bottom: 0.5rem;
+}
+
+.quote-header h2 {
+  font-size: 3rem; /* Smaller heading */
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  color: #333333;
+}
+
+.quote-header p {
+  font-size: 1rem; /* Smaller paragraph */
+  line-height: 1.2;
+  color: #333333;
+}
+
+.quote-form label {
+  font-weight: 500;
+  color: #000;
+  font-size: 0.9rem;
+  padding-bottom: 8px;
+  display: block;
+}
+
+.quote-form input,
+.quote-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid rgba(128, 128, 128, 0.584);
+  border-radius: 4px;
+  background: white;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border-color: #61C1CD;
+}
+
+.quote-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.rounded-button {
+  width: 30%;
+  margin-left: 170px;
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #61c1cd;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.rounded-button:hover {
+  background-color: #3da2aa;
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 768px) {
+  .quote-container {
+    flex-direction: row; /* Back to row for larger screens */
+    justify-content: space-around;
+    padding: 3rem 2rem;
+    gap: 3rem;
+}
+
+  .quote-header {
+    text-align: left;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+  .quote-form {
+    max-width: 45%;
+    margin-top: 0; /* Remove top margin */
+}
+
+  .quote-form textarea {
+      height: 150px;
+  }
+
+  .quote-container::after {
+      bottom: -200px;
+      right: -150px;
+      width: 1000px;
+      height: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quote-container {
+      padding: 4rem;
+  }
+
+  .quote-header h2 {
+      font-size: 4rem;
+  }
+
+  .quote-form {
+      padding: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-container {
+      padding: 1.5rem 1rem;
+  }
+  .quote-header h2 {
+    font-size: 36px; /* Changed to 36px */
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    color: #333333;
+}
+
+  .quote-form {
+      padding: 1rem;
+  }
+
+  .quote-form input,
+  .quote-form textarea {
+      padding: 0.6rem;
+  }
+
+  .rounded-button {
+    width: auto;
+    padding: 0.4rem 1rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+  .quote-container::after {
+      bottom: -50px;
+      right: -25px;
+      width: 300px;
+      height: 200px;
+  }
+}
