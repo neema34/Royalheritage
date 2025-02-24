@@ -25,7 +25,7 @@
 
 .quote-container::after {
   content: "";
-  background-image: url("/assets/bac.jpg") no-repeat center/cover;
+  background-image: url("/assets/bac.jpg") ;
   position: absolute;
   bottom: -100px; /* Adjusted bottom position */
   right: -50px; /* Adjusted right position */
