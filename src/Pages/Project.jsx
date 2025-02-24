@@ -4,9 +4,8 @@ import proj2 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/as
 import proj3 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj3.jpg";
 import proj4 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj4.jpg";
 import proj5 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj5.jpg";
-import proj1 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj1.jpg";
-import header from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/header.jpg";
-
+import proj1 from "../../assets/proj1.jpg";
+import header from "../../assets/header.jpg";
 
 
 const images = [
