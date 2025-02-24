@@ -103,25 +103,20 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 51px;
+  grid-template-columns: repeat(2, minmax(290px, 1fr));
+  gap: 20px;
   margin-top: 20px;
   margin-bottom: 150px;
-  width: 68%;
-  max-width: 1100px; /* Optional: Prevent shrinking */
-  margin: 20px auto 150px auto; 
 }
 
 .gallery-item {
-  width: 100% !important; 
+  width: 100%;
   height: 200px; 
   background-color: #d3d3d3;
   border-radius: 5px;
   overflow: hidden;
   border-color: #61c1d1;
   border-style: solid;
-  min-width: 240px; /* Prevents excessive shrinking */
-  flex-grow: 1;
   
 }
 
