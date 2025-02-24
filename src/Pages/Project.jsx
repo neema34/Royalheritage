@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Project.css";
 
 const images = [
-  "/src/assets/pro1.png",
+  "/src/assets/pro1.jpg",
   "/src/assets/tower.bg.jpg",
   "/src/assets/Group1.jpg",
   "/src/assets/city.jpg",
@@ -62,7 +62,7 @@ const RoyalPalms = () => {
       <Header />
 
       <div className="project-details">
-        <img src="/src/assets/proj2.png" alt="Royal Palms Logo" className="project-logo" />
+        <img src="/src/assets/proj2.jpg" alt="Royal Palms Logo" className="project-logo" />
 
        
         <div className="details-container">
@@ -112,12 +112,12 @@ const RoyalPalms = () => {
     
       <div className="facility-icons">
         <div className="facility-item">
-          <img src="/src/assets/proj3.png" alt="error loading.." />
+          <img src="/src/assets/proj3.jpg" alt="error loading.." />
           <br></br>
           <p>Gym & Fitness Center</p>
         </div>
         <div className="facility-item">
-          <img src="/src/assets/proj4.png" alt="error loading.." />
+          <img src="/src/assets/proj4.jpg" alt="error loading.." />
           <br></br>
           <p>Reticulated Gas</p>
         </div>

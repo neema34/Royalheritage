@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer-main">
         <div className="footer-logo">
-          <img src="src/assets/royal.logo.png" alt="Royal Heritage Logo" />
+          <img src="src/assets/royal.logo.jpg" alt="Royal Heritage Logo" />
         </div>
         <div className="detail">
           <h1>Our Office</h1>
