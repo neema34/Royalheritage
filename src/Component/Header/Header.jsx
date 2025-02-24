@@ -28,7 +28,7 @@ const Header = () => {
           <div
             key={index}
             className={`slide ${index === currentIndex ? 'active' : 'inactive'}`}
-            style={{ backgroundImage: `url(${img})` }}
+            style={{ backgroundImage: `url("${img}")` }}
             role="img"
             aria-label={`Slide ${index + 1}`}
           />
