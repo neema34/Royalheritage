@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <img src="src/assets/royal.logo.png" alt="" />
+        <img src="src/assets/royal.logo.jpg" alt="" />
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
