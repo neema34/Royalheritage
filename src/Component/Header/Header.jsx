@@ -3,10 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import './Header.css';
 
 const images = [
-  '/assets/header.jpg',
-  '/assets/tower.bg.jpg',
-  
+  process.env.PUBLIC_URL + "/assets/header.jpg",
+  process.env.PUBLIC_URL + "/assets/tower.bg.jpg",
 ];
+
 
 const Header = () => {
   const navigate = useNavigate();
