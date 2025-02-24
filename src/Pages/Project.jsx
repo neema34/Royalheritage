@@ -7,8 +7,8 @@ import proj5 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/as
 
 
 const images = [
-  "../../assets/proj1.jpg",
- "../../assets/header.jpg",
+  "/assets/proj1.jpg",
+ "/assets/header.jpg"
  
 ];
 
