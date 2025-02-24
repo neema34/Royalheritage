@@ -25,7 +25,7 @@
 
 .quote-container::after {
   content: "";
-  background: url('"/Users/USER/Downloads/Royalheritage (3)/Royalheritage (2)/Royalheritage/src/assets/bac.jpg') no-repeat center/contain;
+  
   position: absolute;
   bottom: -100px; /* Adjusted bottom position */
   right: -50px; /* Adjusted right position */
