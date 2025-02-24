@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Project.css";
+import proj2 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/proj2.jpg";
 
 const images = [
   "/src/assets/pro1.jpg",
@@ -62,7 +63,7 @@ const RoyalPalms = () => {
       <Header />
 
       <div className="project-details">
-        <img src="/src/assets/proj2.jpg" alt="Royal Palms Logo" className="project-logo" />
+        <img src={proj2} alt="Royal Palms Logo" className="project-logo" />
 
        
         <div className="details-container">
