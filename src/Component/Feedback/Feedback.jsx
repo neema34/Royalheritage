@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Feedback.css";
-
+import img from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/bac.jpg";
 
 const Feedback = () => {
   const [email, setEmail] = useState("");
@@ -65,7 +65,7 @@ const Feedback = () => {
   };
 
   return (
-    <div className="quote-container">
+    <div className="quote-container" >
       <div className="quote-header">
         <h1>Get Quote</h1>
         <h2>Your dream home<br/>awaits - get<br/>your quote now!</h2>
