@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Feedback.css";
-import img from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/bac.png";
+import img from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/bac.jpg";
 
 const Feedback = () => {
   const [email, setEmail] = useState("");
