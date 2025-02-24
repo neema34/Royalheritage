@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Footer.css"
+import foot1 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/tower.bg.jpg";
 
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className="footer" style={{ backgroundImage: `url(${foot1})` }}>
       <div className="footer-main">
         <div className="footer-logo">
           <img src="src/assets/royal.logo.jpg" alt="Royal Heritage Logo" />
