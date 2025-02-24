@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Header.css';
 
-const images = [
-  'src/assets/header.jpg',
-  'src/assets/tower.bg.jpg',
-  'src/assets/Group1.jpg',
-  'src/assets/header.jpg',
-  'src/assets/header.jpg',
-];
+import header from '../assets/header.jpg';
+import towerBg from '../assets/tower.bg.jpg';
+
+
+const images = [header, towerBg, ];
+
 
 const Header = () => {
   const navigate = useNavigate();
