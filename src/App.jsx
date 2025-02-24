@@ -3,7 +3,7 @@ import Navbar from "./Component/navbar/Navbar"
 import About from "./Pages/About"
 import Contact from "./Pages/Contact"
 import Home from "./Pages/Home"
-import {BrowserRouter as  Router, Routes,Route, } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; 
 import Project from "./Pages/Project"
 
 function App() {
