@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 import about1 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/about1.jpeg";
+import about3 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/about3.jpeg";
+import about2 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/about2.jpeg";
+
 
 const About = () => {
   return (
@@ -59,8 +62,8 @@ const About = () => {
       <div className="leadership-section">
         <h2 className="leadership-heading">Leading from the Forefront</h2>
         <div className="leaders">
-          <img src="src/assets/saksha.jpeg" alt="Leader 1" className="leader-img" />
-          <img src="src/assets/musthafa.jpeg" alt="Leader 2" className="leader-img" />
+          <img src={about3} alt="Leader 1" className="leader-img" />
+          <img src={about2} alt="Leader 2" className="leader-img" />
         </div>
       </div>
     </div>
