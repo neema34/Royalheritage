@@ -65,7 +65,7 @@ const Feedback = () => {
   };
 
   return (
-    <div className="quote-container" style={{ backgroundImage: `url(${img})`, backgroundSize: "contain"}}>
+    <div className="quote-container" style={{ backgroundImage: `url(${img})`, backgroundSize: "cover", backgroundPosition: "center"}}>
       <div className="quote-header">
         <h1>Get Quote</h1>
         <h2>Your dream home<br/>awaits - get<br/>your quote now!</h2>
