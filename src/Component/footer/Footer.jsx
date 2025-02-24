@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Footer.css"
 import foot1 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/tower.bg.jpg";
+import foot2 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/royal.logo.jpg";
+
 
 
 const Footer = () => {
@@ -8,7 +10,7 @@ const Footer = () => {
     <div className="footer" style={{ backgroundImage: `url(${foot1})` }}>
       <div className="footer-main">
         <div className="footer-logo">
-          <img src="src/assets/royal.logo.jpg" alt="Royal Heritage Logo" />
+          <img src={foot2} alt="Royal Heritage Logo" />
         </div>
         <div className="detail">
           <h1>Our Office</h1>
