@@ -1,6 +1,8 @@
 import {React,useState ,useRef} from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
+import navlogo from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/royal.logo.jpg";
+
 
 const Navbar = () => {
   const buttonref=useRef()
@@ -28,7 +30,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <img src="src/assets/royal.logo.jpg" alt="" />
+        <img src={navlogo} alt="" />
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
