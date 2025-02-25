@@ -3,7 +3,7 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Project from "./Pages/Project"
 import Contact from "./Pages/Contact"
-import WhatsAppButton from "../Component/Whatsapp";
+import Whatsapp from "../Component/Whatsapp";
 
 
 
