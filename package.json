@@ -1,13 +1,10 @@
 {
-  "homepage": "https://neema34.github.io/Royalheritage/",
   "name": "royalheritage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -22,11 +19,6 @@
     "@mui/icons-material": "^6.4.4",
     "@mui/material": "^6.4.4",
     "@mui/styled-engine-sc": "^6.4.3",
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "nodemailer": "^6.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
@@ -41,8 +33,6 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
-    "gh-pages": "^6.3.0",
-    "globals": "^15.14.0",
     "vite": "^6.1.0"
   }
 }
