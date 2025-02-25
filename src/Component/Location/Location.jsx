@@ -1,8 +1,6 @@
 import React from 'react';
 import "./Location.css"
-import topright from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/img1.jpg"
-import middlee from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/img2.jpg"
-import bottom from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/img3.jpg"
+
 function Location() {
   return (
     <div>
@@ -19,9 +17,9 @@ function Location() {
       
       <div className="content-container">
         <div className="image-group">
-          <img src={topright} alt="Beautiful nature view" className="overlay-image top-right" />
-          <img src={middlee} alt="Beautiful nature view" className="main-image" />
-          <img src={bottom} alt="Beautiful nature view" className="overlay-image bottom-left" />
+          <img src="/Royalheritage/assets/img1.jpg" alt="Beautiful nature view" className="overlay-image top-right" />
+          <img src="/Royalheritage/assets/img2.jpg" alt="Beautiful nature view" className="main-image" />
+          <img src="/Royalheritage/assets/img3.jpg" alt="Beautiful nature view" className="overlay-image bottom-left" />
         </div>
         <div className="text-group">
           <div className="text-item">
