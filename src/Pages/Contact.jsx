@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import cont from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/cont.jpeg";
-import photo1 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/royal.jpeg";
+
 import "./Contactstyle.css";
 
 const Contact = () => {
@@ -68,11 +67,11 @@ const Contact = () => {
   return (
     <div className="photo1">
       <h1>Contact Us</h1>
-      <img src={photo1} className="pic2" alt="Contact Header" />
+      <img src="/Royalheritage/assets/photo1.jpeg"className="pic2" alt="Contact Header" />
 
       <div className="contact-container">
         <div className="contact-info">
-          <img src={cont} alt="Conference Room" className="contact-image" />
+          <img src="/Royalheritage/assets/cont.jpeg" alt="Conference Room" className="contact-image" />
           <div className="contact-details">
             <p><i className="fa-solid fa-location-dot">&nbsp;&nbsp;</i>FORTUNE PROMOTERS</p>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fortune Highway-II</p>
