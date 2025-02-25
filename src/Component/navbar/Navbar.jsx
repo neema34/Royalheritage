@@ -1,7 +1,6 @@
 import {React,useState ,useRef} from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import navlogo from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/royal.logo.jpg";
 
 
 const Navbar = () => {
@@ -30,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <img src={navlogo} alt="" />
+        <img src="/Royalheritage/assets/royal.logo.jpg" alt="" />
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
