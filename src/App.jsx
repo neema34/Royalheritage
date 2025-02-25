@@ -3,6 +3,7 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Project from "./Pages/Project"
 import Contact from "./Pages/Contact"
+import WhatsAppButton from "./components/WhatsAppButton";
 
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
     <Router>
+    <WhatsAppButton /> 
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='about/' element={<About/>}/>
