@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Project.css";
-import Navbar from "../Component/navbar/Navbar";
+
+
+
 
 
 const images = [
@@ -21,8 +23,7 @@ const Header = () => {
   };
 
   return (
-  <div>
-    <Navbar/>
+  
     <div className="header-container">
       <div className="slideshow" onClick={handleNextClick}>
         {images.map((img, index) => (
@@ -48,7 +49,7 @@ const Header = () => {
         ))}
       </div>
     </div>
-    </div>
+    
   );
 };
 
@@ -63,6 +64,7 @@ const RoyalPalms = () => {
   return (
     <div className="royal-palms-container">
       <Header />
+     
 
       <div className="project-details">
         <img src="/Royalheritage/assets/proj2.jpg" alt="Royal Palms Logo" className="project-logo" />

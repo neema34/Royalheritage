@@ -1,12 +1,14 @@
 import React from "react";
 import "./About.css";
-import Navbar from "../Component/navbar/Navbar";
+
+import Whatsapp from "../Component/Whatsapp/Whatsapp"
 
 
 const About = () => {
   return (
     <div>
-      <Navbar/>
+      
+      <Whatsapp/>
     <div className="about-container">
       {/* Hero Section */}
       <div className="hero-section" style={{ backgroundImage: `url(/Royalheritage/assets/about1.jpeg)` }}>

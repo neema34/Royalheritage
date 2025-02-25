@@ -1,9 +1,7 @@
 import React from "react";
-import "../css/whatsapp.css";
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-
+import "./whatsapp.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const WhatsApp = () => {
   return (
@@ -11,7 +9,7 @@ const WhatsApp = () => {
       {/* WhatsApp Floating Button */}
       <div className="whatsapp-button">
         <a
-          href="99900302313"
+          href="https://wa.me/7349421563" // Replace with your number
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import "./Contactstyle.css";
-import Navbar from "../Component/navbar/Navbar";
+
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -66,8 +66,7 @@ const Contact = () => {
   };
 
   return (
-    <div> 
-      <Navbar/>
+    
     <div className="photo1">
       <h1>Contact Us</h1>
       <img src="/Royalheritage/assets/photo1.jpeg"className="pic2" alt="Contact Header" />
@@ -109,7 +108,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-    </div>
+    
   );
 };
 
