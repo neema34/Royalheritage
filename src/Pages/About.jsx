@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about-container">
       {/* Hero Section */}
-      <div className="hero-section" style={{ backgroundImage: `url({/assets/about1.jpeg}})` }}>
+      <div className="hero-section" style={{ backgroundImage: `url(/Royalheritage/assets/about1.jpeg)` }}>
         <div className="hero-overlay">
           <h1 className="hero-text">At Royal Heritage, We Don’t Just Build Structures. We Build Dreams!</h1>
         </div>
@@ -59,8 +59,8 @@ const About = () => {
       <div className="leadership-section">
         <h2 className="leadership-heading">Leading from the Forefront</h2>
         <div className="leaders">
-          <img src="/assets/about3.jpeg" alt="Leader 1" className="leader-img" />
-          <img src="/assets/about2.jpeg" alt="Leader 2" className="leader-img" />
+          <img src="/Royalheritage/assets/about3.jpeg" alt="Leader 1" className="leader-img" />
+          <img src="/Royalheritage/assets/about2.jpeg" alt="Leader 2" className="leader-img" />
         </div>
       </div>
     </div>
