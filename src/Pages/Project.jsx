@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Project.css";
+import Navbar from "../Component/navbar/Navbar";
 
 
 const images = [
@@ -20,6 +21,8 @@ const Header = () => {
   };
 
   return (
+  <div>
+    <Navbar/>
     <div className="header-container">
       <div className="slideshow" onClick={handleNextClick}>
         {images.map((img, index) => (
@@ -44,6 +47,7 @@ const Header = () => {
           </button>
         ))}
       </div>
+    </div>
     </div>
   );
 };

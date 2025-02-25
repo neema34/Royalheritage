@@ -1,9 +1,12 @@
 import React from "react";
 import "./About.css";
+import Navbar from "../Component/navbar/Navbar";
 
 
 const About = () => {
   return (
+    <div>
+      <Navbar/>
     <div className="about-container">
       {/* Hero Section */}
       <div className="hero-section" style={{ backgroundImage: `url(/Royalheritage/assets/about1.jpeg)` }}>
@@ -63,6 +66,7 @@ const About = () => {
           <img src="/Royalheritage/assets/about2.jpeg" alt="Leader 2" className="leader-img" />
         </div>
       </div>
+    </div>
     </div>
   );
 };
