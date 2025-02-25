@@ -65,7 +65,7 @@ const RoyalPalms = () => {
       <Header />
 
       <div className="project-details">
-        <img src={proj2} alt="Royal Palms Logo" className="project-logo" />
+        <img src="/Royalheritage/assets/proj2.jpg" alt="Royal Palms Logo" className="project-logo" />
 
        
         <div className="details-container">
@@ -115,17 +115,17 @@ const RoyalPalms = () => {
     
       <div className="facility-icons">
         <div className="facility-item">
-          <img src={proj3} alt="error loading.." />
+          <img src="/Royalheritage/assets/proj3.jpg" alt="error loading.." />
           <br></br>
           <p>Gym & Fitness Center</p>
         </div>
         <div className="facility-item">
-          <img src={proj4} alt="error loading.." />
+          <img src="/Royalheritage/assets/proj4.jpg" alt="error loading.." />
           <br></br>
           <p>Reticulated Gas</p>
         </div>
         <div className="facility-item">
-          <img src={proj5} alt="error loading.." />
+          <img src="/Royalheritage/assets/proj5.jpg" alt="error loading.." />
           <br></br>
           <p>Kids Play Area</p>
         </div>
