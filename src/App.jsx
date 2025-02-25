@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Router>
-    <WhatsAppButton /> 
+    <Whatsapp/> 
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='about/' element={<About/>}/>
