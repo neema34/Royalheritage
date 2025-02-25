@@ -7,7 +7,7 @@ const Counter = ({ end, label }) => {
 
   useEffect(() => {
     let start = 1;
-    const duration = 8000; // Animation duration in ms
+    const duration = 2000; // Animation duration in ms
     const stepTime = duration / end;
 
     const timer = setInterval(() => {
