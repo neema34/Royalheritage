@@ -1,5 +1,5 @@
 import {React,useState ,useRef} from 'react';
-import './navbar.css';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 import navlogo from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/assets/royal.logo.jpg";
 
