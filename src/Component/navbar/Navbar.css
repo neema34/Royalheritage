@@ -6,6 +6,7 @@
     padding: 0vw;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 .navbar-brand  img{
@@ -86,6 +87,7 @@
     }
     .navbar {
         padding: 2vw 4vw;
+        
     }
 
     .navbar-brand  img{
@@ -99,6 +101,7 @@
     }
     .drop-down{
         display: block;
+        z-index: 1000;
         
     }
     .drop-down a{
