@@ -59,7 +59,7 @@ const About = () => {
       <div className="leadership-section">
         <h2 className="leadership-heading">Leading from the Forefront</h2>
         <div className="leaders">
-          <img src={/assets/about3.jepg} alt="Leader 1" className="leader-img" />
+          <img src={/assets/about3.jpeg} alt="Leader 1" className="leader-img" />
           <img src={/assets/about2.jpeg} alt="Leader 2" className="leader-img" />
         </div>
       </div>
