@@ -1,30 +1,42 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import "./Discover.css";
 import { useNavigate } from 'react-router-dom';
 
 const Counter = ({ end, label }) => {
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
+  const ref = useRef(null);
 
   useEffect(() => {
-    let start = 1;
-    const duration = 2000; // Animation duration in ms
-    const stepTime = duration / end;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          let start = 0;
+          const duration = 2000; // Animation duration in ms
+          const stepTime = duration / end;
 
-    const timer = setInterval(() => {
-      if (start >= end) {
-        setCount(end);
-        clearInterval(timer);
-      } else {
-        setCount(start);
-        start++;
-      }
-    }, stepTime);
+          const timer = setInterval(() => {
+            if (start >= end) {
+              setCount(end);
+              clearInterval(timer);
+            } else {
+              setCount(start);
+              start++;
+            }
+          }, stepTime);
+        }
+      },
+      { threshold: 0.5 }
+    );
 
-    return () => clearInterval(timer);
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => observer.disconnect();
   }, [end]);
 
   return (
-    <div className="ex">
+    <div className="ex" ref={ref}>
       <span>{count}+</span>
       <p>{label}</p>
     </div>
