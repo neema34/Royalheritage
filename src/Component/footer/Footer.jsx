@@ -7,10 +7,10 @@ import foot2 from "/Users/NEEMA/Downloads/Royalheritage (2)/Royalheritage/src/as
 
 const Footer = () => {
   return (
-    <div className="footer" style={{ backgroundImage: `url(${foot1})` }}>
+    <div className="footer" style={{ backgroundImage: `url(/Royalheritage/assets/tower.bg.jpg)` }}>
       <div className="footer-main">
         <div className="footer-logo">
-          <img src={foot2} alt="Royal Heritage Logo" />
+          <img src="/Royalheritage/assets/royal.logo.jpg" alt="Royal Heritage Logo" />
         </div>
         <div className="detail">
           <h1>Our Office</h1>
